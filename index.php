@@ -30,5 +30,5 @@ if ( have_posts() ) {
 ?>
 </section>
 
-
+<?php get_template_part('sidebar'); ?>
 <?php get_footer(); ?>
